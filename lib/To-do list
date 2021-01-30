@@ -1,0 +1,108 @@
+DONE:
+/*
+add bitcoin as a card
+instead of a massive list, transition into a single hard coded map, can do things like superMap['chosesubmaphere']['acces instance in submap here']//1
+    //create new project for above?
+        //not neccisary
+pass map into fullstock page (EZ)
+add changing cash position page
+total account value
+Get percentages n shit to map
+get a net worth pie chart going
+USD worth invested in each (ez)
+Pass initial quantity into fullstock and still be able to buy/sell
+basic search function/page
+in change_cash, make it so only double(and round to cents) can be accepted
+*/
+
+
+sooner:
+get greaphs working
+make a pretend ottom nav bar widget that can push the search or profile widget
+
+
+make pretty function, takes in double, rounds to 2 didgets, adds commas
+
+can reskin to look a bit more like the wealthtracker app
+
+New/better and more random and more different graphs
+
+update what "account" we are in visually
+update what "time frame" we are in visually
+make cash amout work with all the same update shit as two above
+        // globaler variables>?
+
+
+
+
+update quantity in home etc. to reflect bought/sold quantity
+    //perhaps can Pass an optional map in, if it is passed into loading, then the shit is updated as this comes from full stock and purchase may have been made.
+    //something like massing an object with ticker and delta quantity, then using to update quantity, or potentially using global variables??
+    //perhaps file io?
+    //also do the same for cash
+
+
+get the bottomNavigationBar to work
+
+
+Get graphs working!!
+just find annother api man, historic
+    //shouldn't be too hard
+    https://www.alphavantage.co/
+    https://iexcloud.io/pricing/
+
+
+add a stock of your choice!!!?
+    //maybe have a global list of included apps
+
+
+get different time graphs from different time periods
+
+
+
+
+chop off a bunch of shit to make a net worth at instand app, and get started with releasing it
+Then make it track net worth somehow, pehaps saving data locally!
+release new app
+
+
+
+
+
+
+Do these to get through this shit!!
+
+Asking for help with:
+Also probably similar is updating the button colors from clicking
+getting the bottomnavigationbar to work
+how would i get graphs to be legit, this is silly lol. can be very generall,  i just want an idea, do i run a server or like an api from my pc?
+How to add new stocks from within the app, can be more generall //(have a bit ready to get example...)//error handling later
+
+
+guesses on problems for updating the quantity
+the value may be good, but needs to refresh/redraw
+I may have redefined a copy, and its showing
+
+//git repository
+branches
+and good to share
+//aka do it
+
+
+json is a format, look at this...
+read back out as a json pot.
+
+/perhaps child widget in ros/column can be statefull, and that can be used
+
+make the cards statefull/ wraped in statefull
+
+try seccond to get quant to update
+look at inherited widgets
+(home would be inherited)
+
+
+
+
+not quant-> list->
+/update seccond
+I'm updating quant, but the quant never used when popping back to home, list is, and noot just list, but a copy, qould havbe t mess areound somewhere
