@@ -1,0 +1,34 @@
+make a pretend bottom nav bar widget that can push the search or profile widget
+
+before making the pie chart, sort by number, make beautiful
+
+Get graphs working
+//get some kind of line graph
+//make it look good
+
+get data inputed
+//just do last day's data
+
+
+update what "account" we are in visually // perhaps global for 'which account are in'
+    update what "time frame" we are in visually
+//add a variable for other account (ira)'s quantity
+
+
+
+Get graphs working!!
+just find annother api man, historic
+    //shouldn't be too hard
+    https://www.alphavantage.co/
+    https://iexcloud.io/pricing/
+APIs i'm using:
+https://pub.dev/packages/finance_quote
+
+
+
+Later:
+chop off a bunch of shit to make a net worth at instand app, and get started with releasing it
+Then make it track net worth somehow, pehaps saving data locally!
+
+add a stock of your choice!!!?
+get different time graphs from different time periods//// later:
