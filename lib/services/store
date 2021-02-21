@@ -1,0 +1,1 @@
+Map theQuantity = {'cash' : 10000 ,'AAPL' : 0, 'TSLA' : 0, 'GOOGL' : 3, 'SPY' : 0, 'TWTR' : 0, 'DBX' : 0, 'FB' : 0, 'AMZN' : 0, 'PLTR' : 0};
