@@ -3,54 +3,25 @@ Get graphs working
 // Pull in some actual stock data with an api and graph, all testing here in prob 1 app
 // add to real app,
 // perhaps pull away the infrastructure that pulls current price so i dont have to pull from both apis
-    //althrough with async it may not add much time if any
+https://www.alphavantage.co/ // historic prices key is :: 
+https://pub.dev/packages/finance_quote // Current api for current prices
+
+
+
+
+// add slide to complete and a quick (and fake async ie pre-timed) load screen for trade and cash change confirms
 
 
 Start writing algorithm to offset risk, or at least infrastructure to test some, probably all in python?***
+perhaps excel
 
 
-just find another api man, historic
-    https://www.alphavantage.co/
-    https://iexcloud.io/pricing/
-// https://pub.dev/packages/finance_quote // Current api for current prices
-
-
-
-chop off a bunch of shit to make a net worth at instant app, and get started with releasing it
-Then make it track net worth somehow, perhaps saving data locally!
-perhaps keep data and store account by acccount
 
 
 
 //// later:
 add a stock of your choice!!!?
 
-
-
-Chat with skylar:
-Chat a lil (lol if you see this m8 its because i can get a little excited and jump in, although a i wanna chat, and b that is rude)
-show around a lil
-first getting pynput working on my mac
-talk about eye tracking reading shit, show him my idea of how to get there first, and if that's a good path,
-    a little guidance on how to get through it
-// it said too much work on main thread skipped x frames (usually 64, but recently 174+ until in changed it, obvi push is worse than what i did but explain please?
-    where are all these avoid empty statements from( its all the same logic, a copied thing...
-get a little guidance on my hedging stratagy algo, idk where i'll be at that time
-//some help connecting the alpha vantage api to this...
-//??overhaul to get it where i could add new stocks within the app?? perhaps not as hard as i think, there are only 2-3 places things are coded "dumbly"
-//??but there are other parts where things may need to be done different, like the global variable, although that can be pushed within session...
-// holy shit i'm getting close, I wanted a front end to get my ideas across, (and a little bit of theory) and now i'm close!
-
-Get done first:
-// add slide to complete and a quick (and fake async ie pre-timed) load screen for trade and cash change confirms
-// try to get git to work
-// probably the graphs for each stock, this will be nice, may take a long time though.
-// obviously upload current version
-
-
-Reading app plan:
-First get an app where the mouse can move around, and a tracer is made (perhaps fades) in a window.
-connect eye tracking to do the exact same.
-display a paragraph.
-see which sentence you are in and underline.
-now we can experiment with different ways of showing text so one can read faster.
+chop off a bunch of shit to make a net worth at instant app, and get started with releasing it
+    perhaps saving data locally!
+    perhaps keep data and store account by acccount
